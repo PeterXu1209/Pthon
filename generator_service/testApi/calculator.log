@@ -1,0 +1,93 @@
+*** Starting uWSGI 2.0.18 (64bit) on [Sat Jan 29 23:59:48 2022] ***
+compiled with version: 4.2.1 Compatible Clang 4.0.1 (tags/RELEASE_401/final) on 22 July 2019 16:37:28
+os: Darwin-21.3.0 Darwin Kernel Version 21.3.0: Wed Jan  5 21:37:58 PST 2022; root:xnu-8019.80.24~20/RELEASE_X86_64
+nodename: xupeiyingdeMBP
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 8
+current working directory: /Users/xupeiying/Documents/Code/Big_Projects/Python/generator_service/testApi
+detected binary path: /Users/xupeiying/opt/anaconda3/envs/test/bin/uwsgi
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to .
+your processes number limit is 2784
+your memory page size is 4096 bytes
+detected max file descriptor number: 10496
+lock engine: OSX spinlocks
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address ./calculator.sock fd 3
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.7.3 | packaged by conda-forge | (default, Jul  1 2019, 14:38:56)  [Clang 4.0.1 (tags/RELEASE_401/final)]
+Python main interpreter initialized at 0x7f8bcc205de0
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 312672 bytes (305 KB) for 8 cores
+*** Operational MODE: preforking+threaded ***
+failed to open python file ./calculator/wsgi.py
+unable to load app 0 (mountpoint='') (callable not found or import error)
+*** no app loaded. going in full dynamic mode ***
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 73361)
+spawned uWSGI worker 1 (pid: 73362, cores: 4)
+spawned uWSGI worker 2 (pid: 73363, cores: 4)
+unable to stat() ./reload, events will be triggered as soon as the file is created
+Sat Jan 29 23:59:59 2022 - *** ./reload has been touched... grace them all !!! ***
+...gracefully killing workers...
+Gracefully killing worker 1 (pid: 73362)...
+Gracefully killing worker 2 (pid: 73363)...
+Sun Jan 30 00:01:00 2022 - worker 1 (pid: 73362) is taking too much time to die...NO MERCY !!!
+Sun Jan 30 00:01:00 2022 - worker 2 (pid: 73363) is taking too much time to die...NO MERCY !!!
+worker 2 buried after 1 seconds
+worker 1 buried after 1 seconds
+binary reloading uWSGI...
+chdir() to /Users/xupeiying/Documents/Code/Big_Projects/Python/generator_service/testApi
+closing all non-uwsgi socket fds > 2 (max_fd = 10496)...
+found fd 3 mapped to socket 0 (./calculator.sock)
+running /Users/xupeiying/opt/anaconda3/envs/test/bin/uwsgi
+[uWSGI] getting INI configuration from uwsgi.ini
+*** Starting uWSGI 2.0.18 (64bit) on [Sun Jan 30 00:01:01 2022] ***
+compiled with version: 4.2.1 Compatible Clang 4.0.1 (tags/RELEASE_401/final) on 22 July 2019 16:37:28
+os: Darwin-21.3.0 Darwin Kernel Version 21.3.0: Wed Jan  5 21:37:58 PST 2022; root:xnu-8019.80.24~20/RELEASE_X86_64
+nodename: xupeiyingdeMBP
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 8
+current working directory: /Users/xupeiying/Documents/Code/Big_Projects/Python/generator_service/testApi
+detected binary path: /Users/xupeiying/opt/anaconda3/envs/test/bin/uwsgi
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to .
+your processes number limit is 2784
+your memory page size is 4096 bytes
+detected max file descriptor number: 10496
+lock engine: OSX spinlocks
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 inherited UNIX address ./calculator.sock fd 3
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.7.3 | packaged by conda-forge | (default, Jul  1 2019, 14:38:56)  [Clang 4.0.1 (tags/RELEASE_401/final)]
+Python main interpreter initialized at 0x7fda13f04550
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 312672 bytes (305 KB) for 8 cores
+*** Operational MODE: preforking+threaded ***
+failed to open python file ./calculator/wsgi.py
+unable to load app 0 (mountpoint='') (callable not found or import error)
+*** no app loaded. going in full dynamic mode ***
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+gracefully (RE)spawned uWSGI master process (pid: 73361)
+spawned uWSGI worker 1 (pid: 73604, cores: 4)
+spawned uWSGI worker 2 (pid: 73605, cores: 4)

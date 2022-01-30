@@ -1,0 +1,1 @@
+file_count = len(os.listdir(Json_path))
